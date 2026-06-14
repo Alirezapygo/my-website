@@ -1,5 +1,5 @@
 from django.urls import path
-from person.views import abut,shop,home
+from person.views import *
 
 urlpatterns = [
     path('abut',abut),

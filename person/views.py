@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def abut(request):
-    return HttpResponse("<h1>abut<h1/>")
+    return render(request,'websit/abut.html')
 def shop(request):
-    return HttpResponse("<h1>shop<h1/>")
+    return render(request, 'websit/shop.html')
 def home(request):
-    return HttpResponse("<h1>home<h1/>")
+    return render(request,'websit/index.html')
